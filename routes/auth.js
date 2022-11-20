@@ -92,7 +92,7 @@ authrouter.put("/update/:id",async(req,res)=>{
           var user = await Auth.findByIdAndUpdate(_id,{
             Name, Post, Description, Active,
             Photo:{
-              file: `https://testmarkand.herokuapp.com/Photo/${req.file.filename}`,
+              file: `https://mytask123a.herokuapp.com/Photo/${req.file.filename}`,
             },
             new:true
           })
@@ -124,3 +124,6 @@ export default authrouter
 
 // helloondzkfndkfndkffzdjfm ṁdjdbjdba
 // jkjsdbsjdbsjbsj
+// jajdbjdb
+// jsbjbsj
+// jsndidniw
