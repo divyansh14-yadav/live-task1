@@ -34,7 +34,7 @@ authrouter.post("/post", async (req, res) => {
           const user = new Auth({
             Name, Post, Description, Active,
             Photo: {
-            file: `https://testmarkand.herokuapp.com/Photo/${req.file.filename}`,
+            file: `https://task1app1.herokuapp.com/Photo/${req.file.filename}`,
             }
           });
           user.save()
