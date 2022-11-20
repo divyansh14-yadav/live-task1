@@ -34,7 +34,7 @@ authrouter.post("/post", async (req, res) => {
           const user = new Auth({
             Name, Post, Description, Active,
             Photo: {
-            file: `https://task1app1.herokuapp.com/Photo/${req.file.filename}`,
+            file: `https://mytask123a.herokuapp.com/Photo/${req.file.filename}`,
             }
           });
           user.save()
@@ -122,8 +122,4 @@ authrouter.delete("/delete/:id",async(req,res)=>{
 export default authrouter
 
 
-// helloondzkfndkfndkffzdjfm ṁdjdbjdba
-// jkjsdbsjdbsjbsj
-// jajdbjdb
-// jsbjbsj
-// jsndidniw
+// hello
