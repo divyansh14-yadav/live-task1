@@ -26,6 +26,10 @@ authSchema.set('timestamps',{
     updatedAt:'Last Update On'
 });
 
-const Auth=mongoose.model('test',authSchema)
+const Auth=mongoose.model('task1234',authSchema)
 
 export default Auth
+
+
+// jdnwkdnwkdnwkdnwkd
+// bsqjsbqjsbaj
